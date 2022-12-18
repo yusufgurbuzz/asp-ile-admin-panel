@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin_admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    <div id="genel">   
+    <div id="baslik">  
+    
+    <div class="kutu"> <a href="sehirler.aspx"><img src="images/sehir.png" height="100" width="100" alt="sehir" title="sehir" /> </a>   </div>
+    
+    <div class="kutu"> <a href="Default.aspx"> ANASAYFA </a>   </div>
+    
+    <div class="kutu"><a href="oteller.aspx"><img src="images/otel.png" height="100" width="100" alt="otel" title="otel" /></a>      </div>
+    
+    
+       </div><%--baslik--%>
+    
+    
+    
+    
+    <div class="icerik">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div><%--icerik kapanış--%>
+    
+    
+    
+     </div> <%--genel--%>
+    
+    </form>
+</body>
+</html>
