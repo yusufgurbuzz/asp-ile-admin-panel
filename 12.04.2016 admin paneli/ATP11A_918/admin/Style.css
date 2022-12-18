@@ -1,0 +1,7 @@
+﻿#genel { width:1000px; height:750px; border:Solid; margin:0px auto; border-color:Red;}
+#baslik { width:970px; height:160px; border:solid; margin-top:5px; border-color:Orange; margin-left:5px;}
+.kutu { height:150px; width:200px; border:solid 1px; float:left; margin-left:10px;}
+.kutu p {  border:solid ;border-color:Red; width:70px;text-align:center; margin-left:60px;}
+.kutuİc { margin-left:60px;}
+.icerik {width:970px; height:500px; border:solid; margin-top:5px; border-color:Aqua; margin-left:5px;}
+#sinif { list-style-type:none;}

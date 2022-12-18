@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div id="genel">   
+    
+    <div class="sol">  
+        
+    <ul>
+    <asp:Repeater ID="RptSinif" runat="server">
+    <ItemTemplate>
+    
+    <li><%# Eval("sinifAdi")%> </li>
+    
+    </ItemTemplate>
+    </asp:Repeater>
+    </ul>    
+    
+    
+    
+    
+    
+     </div><%--sol kapanış--%>
+    
+    
+    
+    <div class="sag">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div><%--sag kapanış--%>
+    
+    
+    </div><%--genel kapanış--%>
+    </form>
+</body>
+</html>

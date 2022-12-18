@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin_admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    
+    <div id="genel">        
+    
+    <div id="baslik">    
+    
+  <div class="kutu">    
+                
+<div class="kutuİc"><a href="ogrenci.aspx">  <img  src="images/ogrenci.png" width="64" height="64" alt="ogrenci" /></a></div><%--kutuİc kapanış--%>
+  
+  <p><a href="ogrenci.aspx"> Öğrenci </a>        </p>
+  
+   </div><%--kutu kapanış--%>
+  
+
+     <div class="kutu"> <div class="kutuİc"> <img  src="images/ogretmen.png" width="64" height="64" alt="ogretmen" /></div><%--kutuİc kapanış--%>
+  
+  <p>  Öğretmen  </p>    
+    
+ </div><%--kutu kapanış--%>
+     
+     
+  <div class="kutu">                  
+  
+ <div class="kutuİc"><a href="sinif.aspx"> <img  src="images/sinif.png" width="64" height="64" alt="ogretmen" /></a> </div><%--kutuİc kapanış--%>
+  
+  <p><a href="sinif.aspx">  Sınıf</a> </p> 
+  
+  
+   </div><%--kutu kapanış--%>
+    
+    
+    
+    
+    
+     </div><%--baslik kapanış--%>
+    
+    
+    
+    
+    <div class="icerik">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div> <%--içerik kapanış--%>
+    
+    
+    
+    
+    
+      </div><%--genel kapanış--%>
+    </form>
+</body>
+</html>

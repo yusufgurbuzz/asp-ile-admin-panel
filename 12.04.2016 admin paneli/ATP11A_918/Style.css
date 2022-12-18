@@ -1,0 +1,9 @@
+﻿
+#genel { width:1000px; height:750px; border:Solid; margin:0px auto; border-color:Red;}
+
+.sol { width:400px; height:700px; border:solid; float:left; margin-right:20px; margin-top:10px; margin-left:5px;border-color:blue;}
+
+.sag { width:550px; height:700px; border:solid; float:left;margin-top:10px;border-color:green;}
+
+h1 { text-align:center;}
+
